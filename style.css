@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+:root{
+    --branco: white;
+    --cor-de-fundo: #C2D099;
+    --fundo-senha:#744577;
+    --fundo-texto:#F0E9B6;
+    --borda:#84C5B1;
+    --Inconsolata: "Inconsolata", monospace;
+}
+*{
+    font: weight 400px;
+}
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--Inconsolata);
+}
