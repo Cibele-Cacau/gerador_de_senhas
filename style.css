@@ -6,7 +6,7 @@
     --fundo-senha:#744577;
     --fundo-texto:#F0E9B6;
     --borda:#84C5B1;
-    --Inconsolata: "Inconsolata", monospace;
+    --fonte: "Inconsolata", monospace;
 }
 *{
     font: weight 400px;
@@ -15,4 +15,20 @@ body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
     font-family: var(--Inconsolata);
+}
+.titulo-principal{
+    font-family: var(--fonte);
+    font-size: 32px;
+}
+.titulo-secundario{
+    font-size:24px;
+    text-align:center;
+    margin:80px;
+}
+.conteudo-titulo{
+    text-align: center;
+    margin-top:80px;
+}
+.cadeado-conteudo{
+    width:100px;
 }
